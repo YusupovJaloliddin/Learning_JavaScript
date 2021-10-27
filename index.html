@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="promo">
+      <div class="promo__menu">
+        <nav class="promo__menu-list">
+          <ul>
+            <li>
+              <a class="promo__menu-item promo__menu-item_active" href="#"
+                >BBC</a
+              >
+            </li>
+            <li><a class="promo__menu-item" href="#">UzNews</a></li>
+            <li><a class="promo__menu-item" href="#">EuroNews</a></li>
+            <li><a class="promo__menu-item" href="#">NatGeoWild</a></li>
+            <li><a class="promo__menu-item" href="#">Discovery</a></li>
+            <li><a class="promo__menu-item" href="#">Sport TV</a></li>
+          </ul>
+        </nav>
+        <div class="promo__btn">
+          <button class="btn-news" style="width: 90%">List of news</button>
+        </div>
+      </div>
+      <div class="promo__content">
+        <div class="promo__bg">
+          <div class="promo__genre">BBC</div>
+          <div class="promo__title">Important NEWS</div>
+          <div class="promo__descr">
+            Huge amount of starter Web-Developers want to earn money with easy
+            way
+          </div>
+          <div class="promo__ratings">
+            <span>VIEWS: 2.500</span>
+            <span>RATINGS: 1</span>
+          </div>
+          <div class="promo__btn">
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="promo__interactive">
+          <div>
+            <div class="promo__interactive-title">THE BEST SPORT NEWS</div>
+            <ul class="promo__interactive-list">
+              <li class="promo__interactive-item">
+                FOOTBALL
+                <div class="delete"></div>
+              </li>
+              <li class="promo__interactive-item">
+                BASKETBALL
+                <div class="delete"></div>
+              </li>
+              <li class="promo__interactive-item">
+                UFC
+                <div class="delete"></div>
+              </li>
+              <li class="promo__interactive-item">
+                BOX
+                <div class="delete"></div>
+              </li>
+              <li class="promo__interactive-item">
+                AMERICAN FOOTBAL IN EU...
+                <div class="delete"></div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <form class="add">
+              <div class="promo__interactive-title">
+                CREATE NEWS IN THE LIST
+              </div>
+              <span>Type of favourite sport team action</span>
+              <input
+                class="adding__input"
+                type="text"
+                placeholder="What is happen today...?"
+              />
+              <span>Is it favourite?</span>
+              <input type="checkbox" />
+              <span class="yes">Yes!</span>
+              <button class="add-form">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
